@@ -57,7 +57,7 @@ public class Book {
     //function to string
     public String toString() {
         //return yang ngemanggil tostring Author
-        //return this.nama + " by " + this.author;
+        //return this.nama + " by " + this.author.toString();
 
         //return yang ga ngemanggila tostring Author
         return this.nama + " by " + this.author.getNama() + " (" + this.author.getGender() + ") at " + this.author.getEmail();
